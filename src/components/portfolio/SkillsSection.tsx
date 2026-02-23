@@ -24,7 +24,7 @@ const categories: { title: string; skills: Skill[] }[] = [
       { name: "MySQL", level: 90, badge: "Expert", color: "bg-yellow-400" },
       { name: "MongoDB", level: 70, badge: "Proficient", color: "bg-cyan-400" },
       { name: "PostgreSQL", level: 75, badge: "Proficient", color: "bg-cyan-400" },
-      { name: "MSSQL", level: 65, badge: "Intermediate", color: "bg-orange-400" },
+      { name: "MSSQL", level: 40, badge: "Intermediate", color: "bg-orange-400" },
     ],
   },
   {
@@ -33,9 +33,9 @@ const categories: { title: string; skills: Skill[] }[] = [
       { name: "RESTful API Design", level: 90, badge: "Expert", color: "bg-yellow-400" },
       { name: "Monoliths", level: 90, badge: "Advanced", color: "bg-green-400" },
       { name: "Microservices", level: 85, badge: "Advanced", color: "bg-green-400" },
-      { name: "Design Patterns", level: 80, badge: "Advanced", color: "bg-green-400" },
-      { name: "SOLID Principles", level: 70, badge: "Proficient", color: "bg-cyan-400" },
-      { name: "RabbitMQ", level: 75, badge: "Proficient", color: "bg-cyan-400" },
+      { name: "Design Patterns", level: 75, badge: "Proficient", color: "bg-cyan-400" },
+      { name: "SOLID Principles", level: 60, badge: "Proficient", color: "bg-cyan-400" },
+      { name: "RabbitMQ", level: 60, badge: "Proficient", color: "bg-cyan-400" },
     ],
   },
   {
@@ -63,9 +63,9 @@ const categories: { title: string; skills: Skill[] }[] = [
     title: "Version Control & Project Management",
     skills: [
       { name: "Git", level: 95, badge: "Expert", color: "bg-yellow-400" },
-      { name: "JIRA", level: 80, badge: "Interested", color: "bg-purple-400" },
-      { name: "Bitbucket", level: 80, badge: "Interested", color: "bg-purple-400" },
-      { name: "Trello", level: 75, badge: "Interested", color: "bg-purple-400" },
+      { name: "JIRA", level: 80, badge: "Advanced", color: "bg-purple-400" },
+      { name: "Bitbucket", level: 80, badge: "Advanced", color: "bg-purple-400" },
+      { name: "Trello", level: 75, badge: "Proficient", color: "bg-cyan-400" },
     ],
   },
   {
